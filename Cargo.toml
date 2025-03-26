@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = ["hello_world", "rust_web"]
+
+[workspace.dependencies]
+actix-web = "4.10.2"
+dioxus = { version = "0.6.0", features = ["router"] }
+reqwest = "0.12.15"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+tokio = { version = "1.44.1", features = ["full"] }
