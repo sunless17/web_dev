@@ -1,5 +1,5 @@
 [package]
-name = "rust_web"
+name = "hot_dog"
 version = "0.1.0"
 authors = ["Sunless <sunless47@proton.me>"]
 edition = "2021"
